@@ -9,4 +9,9 @@ public class ProductsPage {
 
     public static final Target CART_BADGE = Target.the("Icon cart with products")
             .located(By.className("shopping_cart_badge"));
-}
+
+    public static final Target CART_ICON = Target.the("Shopping cart icon")
+            .located(By.cssSelector("a.shopping_cart_link"));
+    }
+
+

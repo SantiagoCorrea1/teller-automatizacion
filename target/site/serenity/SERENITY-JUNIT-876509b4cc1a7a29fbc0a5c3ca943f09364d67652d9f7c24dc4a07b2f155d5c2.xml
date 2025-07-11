@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Comprar un producto" skipped="0" tests="1" time="3.72" timestamp="2025-07-10 08:15:14"><testcase name="Intento pagar sin ingresar el codigo postal"><failure message="Expected condition failed: waiting for By.id: finish to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.id: finish to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.id: finish to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: unknown&#13;
+co.com.calidad.carrito.carritocompras.tasks.ConfirmPurchase.performAs(ConfirmPurchase.java:16)&#13;
+co.com.calidad.carrito.carritocompras.stepdefinitions.BuyProductRunnerStepDefinition.iConfirmThePurchase(BuyProductRunnerStepDefinition.java:70)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
